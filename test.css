@@ -1,0 +1,64 @@
+*{
+    background-color:beige;
+  
+}
+#intr{
+   display: block;
+   
+    text-align: center;
+    margin: 20px auto;
+    width:70%;
+    
+}
+
+#tutle{
+   
+    position:relative;
+    display: block;
+    margin: 0px auto;
+    width:20%;
+    height: 20%;
+    border-radius:70% ;
+}
+#story{
+   
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+#story1{
+   
+    text-align:center;
+    position: relative;
+    top:15px;
+    
+
+}
+#ss{
+    list-style:none;
+    display:inline-block;
+    height: 200px;
+    position: relative;
+    top:-10px;
+    left:45%;
+}
+#sp{
+    list-style:none;
+    display:inline-block;
+    position: relative;
+    height: 200px;
+    top:-120px;
+    right:35%;
+}
+#name,#can,#git,#will{
+    display: inline-block;
+}
+
+#whole{
+    
+    border: 3px solid black;
+    position: absolute;
+    width:70%;
+    left:15%;
+    border-radius: 10%;
+}

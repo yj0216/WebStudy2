@@ -1,0 +1,83 @@
+p{
+    text-align: center;
+    color:blue;
+}
+.shadow1{
+    color: red;
+    text-shadow:1px 1px black;
+}
+.shadow2{
+
+    text-shadow:5px 5px 3px #ffa500;
+}
+.shadow3{
+    color:#fff;
+    text-shadow:7px -7px 20px  #000;
+}
+table{
+    caption-side:bottom;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+td,tr {
+    border:1px dotted black;
+    padding: 10px;
+    text-align:center;
+}
+nav.menu li{
+    display:inline-block;
+    padding: 20px;
+    margin:0 20px 0px 0px;
+    border: 1px solid rgb(168, 167, 167);
+}
+h1>p:hover{
+    color:red;
+}
+#box{
+    list-style: none;
+
+    position: relative;
+    left:400px
+}
+#box > li{
+    background-color: rgba(210, 208, 208, 0.984);
+    text-align: center;
+    width:80px;
+    height: 20px;
+    float: left;
+    /*display: inline-block;*/
+    border-right: 1px solid rgb(92, 87, 87);
+    box-shadow: 2px 3px 3px rgb(93, 93, 93);
+    
+}
+#box > li:hover{
+    background-color: red;
+    transition: 2s;
+    perspective: 200px;
+}
+#box > :last-of-type:hover{
+    background-color: blue;
+    transition: 2s;
+    perspective: 200px;
+}
+
+.box2{
+    width:100px;
+    height: 100px;
+    margin: 60px auto;
+    animation: rotate 1.5s infinite,background 1.5s infinite alternate;
+}
+
+@keyframes rotate {
+    from{transform: perspective(120px) rotateX(0deg) rotateY(0deg);}
+    50%{transform: perspective(120px) rotateX(-180deg) rotateY(0deg);}
+    to{transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);}
+}
+
+
+@keyframes rotate {
+
+    from{background-color: red;}
+    50%{background-color: green;}
+    to{background-color: blue;}
+}
